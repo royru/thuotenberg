@@ -26,6 +26,13 @@
     <a href="/kontakt">Kontakt</a>
     <a href="/en">English 🇬🇧</a>
   </footer>
+
+  <script>
+    const page = document.querySelector('zircel-page')
+    page.addEventListener('zircel-update', _ => {
+      window.scrollTo(0, 0)})
+  </script>
+
 </body>
 
 </html>
