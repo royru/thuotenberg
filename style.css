@@ -17,10 +17,11 @@ zircel-page {
 }
 
 footer {
-  width: 90%;
+  padding: 0 30px;
   max-width: 1200px;
+  width: 100%;
   display: flex;
-  margin: 30px auto;
+  margin: 0 auto 30px;
 } 
 
 footer a {
@@ -30,12 +31,17 @@ footer a {
 
 @media only screen and (max-width: 800px) {
   footer {
-    color: red;
+    flex-wrap: wrap;
   }
 }
 
 @media only screen and (max-width: 550px) {
    footer {
-     color: blue;
+     align-items: center;
+     justify-content: center;
+   }
+
+   footer a {
+     margin-top: 10px;
    }
 }
