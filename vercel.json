@@ -3,8 +3,10 @@
       { "src": "/", "dest": "/index.html" },
       { "src": "/kontakt", "dest": "/kontakt.html" },
       { "src": "/buchen", "dest": "/buchen.html" },
+      { "src": "/agb", "dest": "/agb.html" },
       { "src": "/en", "dest": "/en/index.html" },
       { "src": "/en/contact", "dest": "/en/contact.html" },
-      { "src": "/en/booking", "dest": "/en/booking.html" }
+      { "src": "/en/booking", "dest": "/en/booking.html" },
+      { "src": "/en/terms", "dest": "/en/terms.html" }
    ]
 }
